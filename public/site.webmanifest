@@ -1,0 +1,13 @@
+{
+  "name": "DivorceFig",
+  "short_name": "DivorceFig",
+  "description": "U.S. divorce information by state: cost estimator, residency requirements, and official court forms checklists.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#1f5fbf",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

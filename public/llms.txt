@@ -1,0 +1,36 @@
+# DivorceFig
+
+DivorceFig is an independent, free reference website for U.S. divorce information.
+It is NOT a law firm and is NOT legal advice. It helps readers understand, by state,
+how much a divorce typically costs, what residency and separation rules apply before
+filing, and which official court forms are used.
+
+## What the site provides
+- Home (/): overview of divorce by state and links to every tool.
+- Divorce Cost Estimator (/divorce-cost/): combines a real, cited state filing fee with
+  clearly labelled industry-average attorney/mediation cost bands to show an estimated
+  total cost range for DIY, uncontested, mediation, and contested paths.
+- Residency & Separation Requirements (/divorce-requirements/): per-state residency
+  duration, separation period, and mandatory waiting period before a decree.
+- Forms Checklist by State (/forms/[state]/): the typical forms a self-represented
+  filer submits, linking to each state's official court forms portal.
+- About (/about/): full methodology, disclaimer, and data sources.
+
+## Data & accuracy
+- Filing fees cite each state's official court fee schedule (compiled via
+  legalcostcalculator.org 2026, cross-checked vs Nolo / Realcostreport 2026).
+- Residency / separation rules cite state family-law statutes and court self-help tables.
+- Forms point to each state's official court or legal-aid forms portal.
+- Every figure is retrieved 2026-08-15. Laws and fees change — confirm with the
+  relevant state court or a licensed attorney before relying on any number.
+
+## Important
+This site provides general information only and is not legal advice. Consult a licensed
+attorney in your state.
+
+## Site map
+- https://divorcefig.com/
+- https://divorcefig.com/divorce-cost/
+- https://divorcefig.com/divorce-requirements/
+- https://divorcefig.com/forms/california/
+- https://divorcefig.com/about/
