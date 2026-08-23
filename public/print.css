@@ -1,0 +1,93 @@
+/* print.css — generated "print / save as PDF" document view for tool pages.
+   On screen the .print-only block is hidden; in print it becomes the clean
+   Letter-format artifact with inputs, results, disclaimer and signature line. */
+
+.print-only { display: none; }
+
+@media print {
+  @page { size: Letter; margin: 0.7in; }
+
+  html, body {
+    background: #ffffff !important;
+    color: #111111 !important;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  /* Hide everything interactive, promotional or duplicate */
+  .tool-header,
+  .toolbar,
+  .no-print,
+  .ad-slot,
+  #calc-inputs,
+  .result-section,
+  .answer-box,
+  .ymyl-banner,
+  .tool-footer,
+  .seo-content,
+  .faq,
+  .related-tools { display: none !important; }
+
+  .tool-main { padding: 0 !important; max-width: 100% !important; }
+  main, article { max-width: 100% !important; }
+  .print-only { display: block !important; }
+
+  #print-summary { font-size: 12px; color: #111111; }
+  .ps-head {
+    border-bottom: 2px solid #111111;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+  }
+  .ps-title { font-size: 18px; font-weight: 800; letter-spacing: -0.3px; }
+  .ps-sub { font-size: 11px; color: #555555; margin-top: 3px; }
+
+  #print-summary h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #cccccc;
+    margin: 16px 0 6px;
+    padding-bottom: 2px;
+  }
+
+  .ps-answer {
+    background: #f3f6fb;
+    border-left: 3px solid #2563eb;
+    padding: 8px 10px;
+    margin: 8px 0;
+    font-size: 12px;
+  }
+
+  table.ps-table { width: 100%; border-collapse: collapse; margin: 4px 0; }
+  table.ps-table th, table.ps-table td {
+    text-align: left;
+    padding: 5px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: top;
+  }
+  table.ps-table th { width: 55%; font-weight: 600; color: #333344; }
+
+  .ps-sources { font-size: 10px; padding-left: 16px; }
+  .ps-sources a { color: #111111; text-decoration: underline; }
+
+  .ps-disclaimer {
+    margin-top: 14px;
+    padding: 8px 10px;
+    border: 1px solid #cccccc;
+    background: #fffdf5;
+    font-size: 10px;
+    line-height: 1.45;
+  }
+
+  .ps-sign { display: flex; gap: 24px; margin-top: 30px; }
+  .ps-sign-line {
+    flex: 1;
+    border-top: 1px solid #111111;
+    padding-top: 4px;
+    font-size: 10px;
+    color: #333333;
+  }
+
+  .chart-wrap { display: block !important; break-inside: avoid; margin-top: 12px; }
+  a { color: #111111; text-decoration: none; }
+}
