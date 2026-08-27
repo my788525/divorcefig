@@ -120,6 +120,27 @@ export default function DivorceRequirementsPage() {
 
       <DataSources sources={[{ label: 'Residency & separation', detail: RESIDENCY_SOURCE }]} />
 
+      <section className="howto-block" aria-label="Choosing a divorce path" style={{ marginTop: 24 }}>
+        <h2>No-fault vs. fault: why the requirements differ</h2>
+        <p>
+          Most states now allow a <strong>no-fault</strong> divorce (irreconcilable differences or a
+          completed separation), which is usually faster and is governed mainly by the residency and
+          waiting-period rules in the table. A <strong>fault</strong> divorce (adultery, cruelty,
+          abandonment, etc.) can still be available in some states but generally adds proof, time, and
+          cost. The residency and separation columns above apply regardless of the grounds you plead;
+          the waiting period is the minimum even when both spouses fully agree. Use the{' '}
+          <Link href="/divorce-cost/">cost estimator</Link> to see how attorney and filing fees shift
+          with case type, and open your <Link href="/forms/california/">state forms checklist</Link>{' '}
+          for the exact packet your court expects.
+        </p>
+      </section>
+
+      <p className="small muted" style={{ marginTop: 18 }}>
+        Methodology and citations are maintained by the DivorceFig editorial team. See{' '}
+        <Link href="/about/">About DivorceFig</Link> for the responsible party, sources, and contact
+        details.
+      </p>
+
       <FaqBlock items={FAQ} />
     </div>
   );

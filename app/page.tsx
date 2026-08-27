@@ -106,6 +106,14 @@ export default function HomePage() {
           </div>
         </div>
 
+        <div className="note" style={{ marginTop: 26 }}>
+          <strong>New here?</strong> Start with the{' '}
+          <Link href="/divorce-cost/">cost estimator</Link> or the{' '}
+          <Link href="/divorce-requirements/">residency &amp; separation table</Link>, then open the{' '}
+          <Link href="/forms/california/">forms checklist</Link> for your state. Read{' '}
+          <Link href="/about/">how we source and verify this data →</Link>
+        </div>
+
         <div className="note warn" style={{ marginTop: 26 }}>
           <strong>Not legal advice.</strong> Divorce is governed by state law and decided by a court.
           Every figure on DivorceFig cites an official source and was retrieved {SITE.retrieved},
