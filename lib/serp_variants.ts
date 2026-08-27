@@ -19,6 +19,12 @@ export const FORMS_DESC_VARIANTS = [
   'Divorce forms by state: the standard self-represented filer paperwork plus a link to your state’s official, current court forms portal.',
 ];
 
+export const PROPERTY_DESC_VARIANTS = [
+  'Classify an asset as separate or marital property by state: community property vs equitable distribution, and what counts as separate (pre-marital, gift, inheritance) versus marital. Retrieved 2026-08-15.',
+  'Is it separate or marital property in your state? See how community property and equitable distribution treat assets acquired before, during, or after marriage — and by gift or inheritance.',
+  'Separate vs marital property tool: pick your state and how an asset came into the marriage to learn whether it is divided in divorce and how your state splits it.',
+];
+
 export const ACTIVE_VARIANT = 0 as const;
 
 export function homeDescription(): string {
@@ -31,4 +37,8 @@ export function costDescription(): string {
 
 export function formsDescription(): string {
   return FORMS_DESC_VARIANTS[ACTIVE_VARIANT];
+}
+
+export function propertyDescription(): string {
+  return PROPERTY_DESC_VARIANTS[ACTIVE_VARIANT];
 }

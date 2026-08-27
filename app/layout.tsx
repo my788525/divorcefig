@@ -107,8 +107,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="nav-links">
               <a href="/">Home</a>
               <a href="/divorce-cost/">Cost Estimator</a>
+              <a href="/property-division/">Property Division</a>
               <a href="/divorce-requirements/">Residency &amp; Separation</a>
-              <a href="/forms/california/">Forms by State</a>
+              <a href="/forms/ca/">Forms by State</a>
               <a href="/about/">About</a>
             </nav>
           </div>
@@ -137,9 +138,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <p>
                   <a href="/divorce-cost/">Divorce cost estimator</a>
                   <br />
+                  <a href="/property-division/">Separate vs marital property</a>
+                  <br />
                   <a href="/divorce-requirements/">Residency &amp; separation rules</a>
                   <br />
-                  <a href="/forms/california/">Forms checklist by state</a>
+                  <a href="/forms/ca/">Forms checklist by state</a>
                 </p>
               </div>
               <div>

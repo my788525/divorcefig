@@ -44,7 +44,7 @@ export default function HomePage() {
             <Link className="btn secondary" href="/divorce-requirements/">
               Residency &amp; separation rules
             </Link>{' '}
-            <Link className="btn secondary" href="/forms/california/">
+            <Link className="btn secondary" href="/forms/ca/">
               Forms by state
             </Link>
           </p>
@@ -83,6 +83,17 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="card">
+            <span className="card-icon">🏠</span>
+            <h3>Separate vs Marital Property</h3>
+            <p>
+              Classify an asset by state — community property vs equitable distribution, and what
+              counts as separate (pre-marital, gift, inheritance) versus marital.
+            </p>
+            <Link className="textlink" href="/property-division/">
+              Classify an asset →
+            </Link>
+          </div>
+          <div className="card">
             <span className="card-icon">📍</span>
             <h3>Residency &amp; Separation</h3>
             <p>
@@ -100,7 +111,7 @@ export default function HomePage() {
               The typical forms a self-represented filer submits, with a link to each state&apos;s
               official court forms portal.
             </p>
-            <Link className="textlink" href="/forms/california/">
+            <Link className="textlink" href="/forms/ca/">
               Open the checklist →
             </Link>
           </div>
@@ -110,7 +121,7 @@ export default function HomePage() {
           <strong>New here?</strong> Start with the{' '}
           <Link href="/divorce-cost/">cost estimator</Link> or the{' '}
           <Link href="/divorce-requirements/">residency &amp; separation table</Link>, then open the{' '}
-          <Link href="/forms/california/">forms checklist</Link> for your state. Read{' '}
+          <Link href="/forms/ca/">forms checklist</Link> for your state. Read{' '}
           <Link href="/about/">how we source and verify this data →</Link>
         </div>
 
