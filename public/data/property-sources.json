@@ -1,0 +1,17 @@
+[
+  {
+    "key": "earned",
+    "label": "Bought with income earned during the marriage",
+    "hint": "Salary, bonuses, or purchases made while married."
+  },
+  {
+    "key": "gift",
+    "label": "A gift given to one spouse alone",
+    "hint": "e.g. a family member’s gift to you only."
+  },
+  {
+    "key": "inheritance",
+    "label": "An inheritance received by one spouse alone",
+    "hint": "Left to one spouse individually."
+  }
+]

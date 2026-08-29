@@ -1,0 +1,17 @@
+{
+  "community": {
+    "label": "Community property",
+    "split": "A presumption of a 50/50 split of assets and debts acquired during the marriage.",
+    "note": "Most property and debt either spouse acquires during the marriage is owned equally (50/50), regardless of whose name is on the title or the account."
+  },
+  "opt-in": {
+    "label": "Equitable distribution (community-property opt-in available)",
+    "split": "Default is a fair (not necessarily equal) division; couples may elect 50/50 community property by a signed written agreement or community property trust.",
+    "note": "Alaska is an equitable-distribution state by default. A signed community property agreement or trust can make specific assets community property."
+  },
+  "equitable": {
+    "label": "Equitable distribution",
+    "split": "The court divides marital property in a way it finds fair under the circumstances — not automatically 50/50.",
+    "note": "Judges weigh factors such as marriage length, each spouse’s finances and earning capacity, and contributions (including homemaking). Results often land 50/50 to 60/40 or beyond."
+  }
+}

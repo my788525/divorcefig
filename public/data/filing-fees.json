@@ -1,0 +1,213 @@
+{
+  "AL": {
+    "fee": 290,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "AK": {
+    "fee": 200,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "AZ": {
+    "fee": 349,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "AR": {
+    "fee": 165,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "CA": {
+    "fee": 435,
+    "note": "Statewide; some counties add a local construction surcharge.",
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "CO": {
+    "fee": 230,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "CT": {
+    "fee": 350,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "DE": {
+    "fee": 165,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "DC": {
+    "fee": 80,
+    "note": "DC Superior Court; mutual-consent filing.",
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "FL": {
+    "fee": 408,
+    "note": "Per Fla. Stat. § 28.241; +$10 per summons issued.",
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "GA": {
+    "fee": 200,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "HI": {
+    "fee": 215,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "ID": {
+    "fee": 207,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "IL": {
+    "fee": 289,
+    "note": "Cook County petitioner ≈ $388; fee varies by county.",
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "IN": {
+    "fee": 157,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "IA": {
+    "fee": 185,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "KS": {
+    "fee": 195,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "KY": {
+    "fee": 148,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "LA": {
+    "fee": 250,
+    "note": "Varies by parish.",
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "ME": {
+    "fee": 120,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "MD": {
+    "fee": 165,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "MA": {
+    "fee": 200,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "MI": {
+    "fee": 175,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "MN": {
+    "fee": 365,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "MS": {
+    "fee": 100,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "MO": {
+    "fee": 163,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "MT": {
+    "fee": 120,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "NE": {
+    "fee": 157,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "NV": {
+    "fee": 299,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "NH": {
+    "fee": 260,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "NJ": {
+    "fee": 300,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "NM": {
+    "fee": 137,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "NY": {
+    "fee": 335,
+    "note": "$210 index number + $125 combined RJI/Note of Issue.",
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "NC": {
+    "fee": 225,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "ND": {
+    "fee": 80,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "OH": {
+    "fee": 250,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "OK": {
+    "fee": 183,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "OR": {
+    "fee": 301,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "PA": {
+    "fee": 201,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "RI": {
+    "fee": 160,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "SC": {
+    "fee": 150,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "SD": {
+    "fee": 95,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "TN": {
+    "fee": 184,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "TX": {
+    "fee": 300,
+    "note": "No statewide fee; each district clerk sets $300–$400.",
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "UT": {
+    "fee": 325,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "VT": {
+    "fee": 90,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "VA": {
+    "fee": 86,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "WA": {
+    "fee": 314,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "WV": {
+    "fee": 135,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "WI": {
+    "fee": 184,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  },
+  "WY": {
+    "fee": 100,
+    "source": "legalcostcalculator.org, \"Divorce Filing Fees by State 2026\" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026."
+  }
+}

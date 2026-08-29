@@ -34,3 +34,25 @@ attorney in your state.
 - https://divorcefig.com/divorce-requirements/
 - https://divorcefig.com/forms/california/
 - https://divorcefig.com/about/
+
+
+# Open Datasets (CC BY 4.0)
+# These machine-readable datasets are published under Creative Commons Attribution 4.0.
+# You may cite or reuse them with attribution to the site.
+
+- /data/dataset-readme.json — divorcefig open dataset (CC BY 4.0)
+
+- /data/filing-fees.json — divorcefig open dataset (CC BY 4.0)
+- /data/filing-fee-retrieved.json — divorcefig open dataset (CC BY 4.0)
+- /data/filing-fee-source.json — divorcefig open dataset (CC BY 4.0)
+- /data/forms.json — divorcefig open dataset (CC BY 4.0)
+- /data/forms-retrieved.json — divorcefig open dataset (CC BY 4.0)
+- /data/forms-source.json — divorcefig open dataset (CC BY 4.0)
+- /data/typical-forms.json — divorcefig open dataset (CC BY 4.0)
+- /data/residency.json — divorcefig open dataset (CC BY 4.0)
+- /data/residency-retrieved.json — divorcefig open dataset (CC BY 4.0)
+- /data/residency-source.json — divorcefig open dataset (CC BY 4.0)
+- /data/community-property-states.json — divorcefig open dataset (CC BY 4.0)
+- /data/opt-in-community-states.json — divorcefig open dataset (CC BY 4.0)
+- /data/property-sources.json — divorcefig open dataset (CC BY 4.0)
+- /data/regime-info.json — divorcefig open dataset (CC BY 4.0)
