@@ -130,7 +130,7 @@ export default function DivorceRequirementsPage() {
           cost. The residency and separation columns above apply regardless of the grounds you plead;
           the waiting period is the minimum even when both spouses fully agree. Use the{' '}
           <Link href="/divorce-cost/">cost estimator</Link> to see how attorney and filing fees shift
-          with case type, and open your <Link href="/forms/california/">state forms checklist</Link>{' '}
+          with case type, and open your <Link href="/forms/ca/">state forms checklist</Link>{' '}
           for the exact packet your court expects.
         </p>
       </section>

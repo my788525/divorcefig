@@ -35,7 +35,7 @@ export default function FormsByStatePage({ params }: { params: { state: string }
       <Breadcrumbs
         items={[
           { name: 'Home', url: '/' },
-          { name: 'Forms by state', url: '/forms/california/' },
+          { name: 'Forms by state', url: '/forms/ca/' },
           { name: state.name, url: `/forms/${state.code.toLowerCase()}/` },
         ]}
       />

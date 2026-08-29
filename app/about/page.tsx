@@ -113,7 +113,7 @@ export default function AboutPage() {
         <div className="card">
           <h3>Forms by State</h3>
           <p>The typical forms filed, linked to each state&apos;s official portal.</p>
-          <Link className="textlink" href="/forms/california/">
+          <Link className="textlink" href="/forms/ca/">
             Open →
           </Link>
         </div>
