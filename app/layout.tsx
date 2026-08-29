@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { NetworkStrip } from "@/components/NetworkStrip";
 import './globals.css';
 import { SITE } from '@/lib/site-config';
 import DisclaimerBanner from '@/components/DisclaimerBanner';
@@ -119,7 +120,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main>{children}</main>
 
-        <footer className="footer">
+        <NetworkStrip self="divorcefig.com" />
+
+<footer className="footer">
           <div className="container">
             <div className="grid">
               <div>
