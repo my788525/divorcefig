@@ -1,9 +1,8 @@
 // DivorceFig — generated sitemap (Next.js static export).
-// Enumerates every static route, all 51 /forms/[state] routes, and the two
-// standalone public HTML pages. Replaces the stale hand-maintained
-// public/sitemap.xml (which only listed 3 URLs).
+// Enumerates every static route and the two standalone public HTML pages.
+// Per-state /forms routes are noindexed (2026-09-13) and excluded here.
+// Replaces the stale hand-maintained public/sitemap.xml (which only listed 3 URLs).
 
-import { STATES } from '@/lib/site-config';
 import type { MetadataRoute } from 'next';
 
 const BASE_URL = 'https://divorcefig.com';
@@ -28,14 +27,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  for (const s of STATES) {
-    entries.push({
-      url: `${BASE_URL}/forms/${s.code.toLowerCase()}/`,
-      lastModified: new Date('2026-08-15'),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    });
-  }
+  // INDEX POLICY (2026-09-13): per-state /forms pages are noindexed
+  // (pooled Jaccard 0.912) and must not be submitted here; the /forms/ hub
+  // (declared in STATIC_PATHS) stays indexable.
 
   // Standalone public HTML pages.
   for (const file of ['data-library.html', 'printable.html']) {

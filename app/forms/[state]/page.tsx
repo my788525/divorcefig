@@ -18,6 +18,10 @@ export function generateMetadata({ params }: { params: { state: string } }) {
     title: `Divorce Forms in ${state.name} (2026 Checklist)`,
     description: formsDescription(),
     alternates: { canonical: `/forms/${state.code.toLowerCase()}/` },
+    // INDEX POLICY (2026-09-13): per-state forms pages measure pooled Jaccard
+    // 0.912 (avg 13 unique words) — template-driven. Kept out of the index;
+    // the /forms/ hub stays indexable. follow stays on.
+    robots: { index: false, follow: true },
   };
 }
 
