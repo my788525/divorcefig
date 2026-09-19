@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from "next/script";
 import { NetworkStrip } from "@/components/NetworkStrip";
 import './globals.css';
 import { SITE } from '@/lib/site-config';
@@ -158,7 +159,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </p>
               </div>
             </div>
-            <div className="fine">
+            <div className="legal-links">
+                  <a href="/privacy">Privacy Policy</a> · <a href="/terms">Terms of Service</a>
+                </div>
+                <div className="fine">
               <strong>Not legal advice.</strong> Divorce is governed by state law and decided by a
               court. This site provides general information only. Laws and fees change — always
               confirm the current rule with your state court or a licensed attorney in your state
@@ -166,7 +170,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         </footer>
-      </body>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-BPHCKTT7H3" strategy="afterInteractive" />
+      <Script id="ga4-init" strategy="afterInteractive" dangerouslySetInnerHTML={{__html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-BPHCKTT7H3');`}} /></body>
     </html>
   );
 }

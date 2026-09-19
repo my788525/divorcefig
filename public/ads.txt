@@ -1,0 +1,11 @@
+# ads.txt — divorcefig.com
+# https://divorcefig.com/ads.txt
+#
+# Authorized Digital Seller:
+google.com, pub-5014006117898962, DIRECT, f08c47fec0942fa0
+
+# Notes:
+#   - DIRECT (not RESELLER) is correct: you sell your own inventory.
+#   - f08c47fec0942fa0 is Google's published seller ID; do not change it.
+#
+# Reference: https://support.google.com/adsense/answer/7532444
