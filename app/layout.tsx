@@ -8,11 +8,11 @@ import DisclaimerBanner from '@/components/DisclaimerBanner';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: 'DivorceFig — Divorce Information by State (Cost, Residency, Forms)',
+    default: 'DivorceFig – Divorce Cost & Filing Fee Calculator 2026 | by State',
     template: `%s | ${SITE.name}`,
   },
   description:
-    'State-by-state U.S. divorce information: filing-fee estimator, residency and separation requirements, and official court forms checklists for all 50 states and D.C.',
+    'Calculate estimated divorce filing fees, court costs, and legal expenses across all 50 U.S. states. Residency rules, waiting periods, and mandatory forms.',
   applicationName: SITE.name,
   authors: [{ name: SITE.author }],
   creator: SITE.author,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description: 'Filing-fee estimator, residency/separation rules, and official court forms checklists.',
     images: [SITE.ogImage],
   },
-  robots: { index: true, follow: true },
+  robots: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large', 'max-video-preview': -1 },
 };
 
 const websiteLd = {
