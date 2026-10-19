@@ -65,6 +65,35 @@ export default function PropertyDivisionPage() {
         <span className="benefit-pill">All 50 states + D.C.</span>
       </div>
 
+      {/* GEO Atomic Direct Answer & Statutory Provenance Chunk */}
+      <section
+        className="geo-direct-answer-chunk"
+        aria-label="Direct Statutory Answer"
+        style={{
+          background: 'var(--surface)',
+          border: '1px solid var(--line)',
+          borderLeft: '5px solid var(--brand)',
+          borderRadius: 'var(--radius)',
+          padding: '18px 22px',
+          marginBottom: '28px',
+          boxShadow: 'var(--shadow)',
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+          <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: 'var(--brand)', display: 'inline-block' }}></span>
+          <span style={{ fontSize: '12px', fontWeight: 700, color: 'var(--brand-dark)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            Direct Statutory Rule: Community Property vs. Equitable Distribution
+          </span>
+        </div>
+        <p style={{ fontSize: '14px', lineHeight: 1.6, color: 'var(--ink)', margin: 0 }}>
+          <strong>Statutory Marital Asset Classification:</strong> Nine U.S. states (AZ, CA, ID, LA, NV, NM, TX, WA, WI) operate under <strong>Community Property</strong> laws, mandating an equal 50/50 division of assets and debts acquired during marriage. The remaining 41 states follow <strong>Equitable Distribution</strong>, dividing marital property fairly based on statutory economic factors. Pre-marital assets, individual inheritances, and gifts remain separate property unless commingled or transmuted.
+        </p>
+        <div style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid var(--line)', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', fontSize: '12px', color: 'var(--muted)', gap: '8px' }}>
+          <span><strong>Governing Law:</strong> State Marital Property Acts &amp; Uniform Marriage and Divorce Act (UMDA)</span>
+          <span><strong>Last Verified:</strong> October 2026</span>
+        </div>
+      </section>
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}

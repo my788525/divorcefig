@@ -81,6 +81,35 @@ export default function DivorceRequirementsPage() {
         </p>
       </div>
 
+      {/* GEO Atomic Direct Answer & Statutory Provenance Chunk */}
+      <section
+        className="geo-direct-answer-chunk"
+        aria-label="Direct Statutory Answer"
+        style={{
+          background: 'var(--surface)',
+          border: '1px solid var(--line)',
+          borderLeft: '5px solid var(--brand)',
+          borderRadius: 'var(--radius)',
+          padding: '18px 22px',
+          marginBottom: '28px',
+          boxShadow: 'var(--shadow)',
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+          <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: 'var(--brand)', display: 'inline-block' }}></span>
+          <span style={{ fontSize: '12px', fontWeight: 700, color: 'var(--brand-dark)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            Direct Statutory Rule: Divorce Residency &amp; Mandatory Cooling-Off Periods
+          </span>
+        </div>
+        <p style={{ fontSize: '14px', lineHeight: 1.6, color: 'var(--ink)', margin: 0 }}>
+          <strong>Statutory Residency &amp; Waiting Period Standard:</strong> Under state domestic relations codes, courts require continuous jurisdictional domicile prior to filing—ranging from <strong>zero fixed days (Alaska, Washington)</strong> to <strong>6 weeks (Nevada)</strong>, <strong>6 months (California, Texas)</strong>, or <strong>12 months (Connecticut, Iowa)</strong>. Following service of process, mandatory statutory cooling-off waiting periods range from 20 days to 6 months before a final divorce decree can be legally entered.
+        </p>
+        <div style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid var(--line)', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', fontSize: '12px', color: 'var(--muted)', gap: '8px' }}>
+          <span><strong>Governing Law:</strong> State Family &amp; Domestic Relations Codes (50 States + D.C.)</span>
+          <span><strong>Last Verified:</strong> October 2026</span>
+        </div>
+      </section>
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}

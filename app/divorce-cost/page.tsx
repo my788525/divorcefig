@@ -83,6 +83,35 @@ export default function DivorceCostPage() {
         <span className="benefit-pill">All 50 states + D.C.</span>
       </div>
 
+      {/* GEO Atomic Direct Answer & Statutory Provenance Chunk */}
+      <section
+        className="geo-direct-answer-chunk"
+        aria-label="Direct Statutory Answer"
+        style={{
+          background: 'var(--surface)',
+          border: '1px solid var(--line)',
+          borderLeft: '5px solid var(--brand)',
+          borderRadius: 'var(--radius)',
+          padding: '18px 22px',
+          marginBottom: '28px',
+          boxShadow: 'var(--shadow)',
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+          <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: 'var(--brand)', display: 'inline-block' }}></span>
+          <span style={{ fontSize: '12px', fontWeight: 700, color: 'var(--brand-dark)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            Direct Statutory Rule: Court Filing Fees &amp; Dissolution Costs
+          </span>
+        </div>
+        <p style={{ fontSize: '14px', lineHeight: 1.6, color: 'var(--ink)', margin: 0 }}>
+          <strong>Statutory Divorce Cost Standard:</strong> Across U.S. state judicial branches, mandatory civil court filing fees range from <strong>$80 (Mississippi) to $435 (California)</strong>. Uncontested summary dissolutions filed pro se incur only statutory filing and service fees ($150–$500 total). Contested divorces involving custody or asset disputes average $12,000–$25,000+ due to hourly legal counsel ($250–$550/hr). Fee waivers (in forma pauperis) are available in all 50 states.
+        </p>
+        <div style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid var(--line)', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', fontSize: '12px', color: 'var(--muted)', gap: '8px' }}>
+          <span><strong>Governing Authorities:</strong> 50-State Judicial Branches &amp; County Superior/Circuit Courts</span>
+          <span><strong>Last Verified:</strong> October 2026</span>
+        </div>
+      </section>
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
