@@ -1,3 +1,5 @@
+import { BenchmarkCard } from '@/components/BenchmarkCard';
+import { NextStepsActionHub } from '@/components/NextStepsActionHub';
 import Link from 'next/link';
 import { SITE, STATES } from '@/lib/site-config';
 import { FILING_FEES, FILING_FEE_RETRIEVED } from '@/data/divorce-filing-fees';
@@ -22,6 +24,22 @@ function statValues() {
 export default function HomePage() {
   const s = statValues();
   return (
+    <>
+
+        <BenchmarkCard
+          title="2026 U.S. Divorce Cost & Statutory Benchmarks"
+          subtitle="State filing fees, mandatory waiting periods, and property division frameworks"
+          items={[
+            { label: "Average Uncontested Cost", value: "$1,500 – $4,500", note: "Filing fees, document prep, mediation" },
+            { label: "Average Contested Cost", value: "$15,000 – $30,000+", note: "Trial litigation and billable attorney hours" },
+            { label: "Court Filing Fees by State", value: "$150 – $450", note: "Mandatory court clerk filing surcharge" },
+            { label: "Community Property States", value: "9 States Only", note: "50/50 statutory marital split (CA, TX, WA, etc.)" },
+            { label: "Equitable Distribution", value: "41 States", note: "Fair and equitable (not necessarily 50/50)" },
+            { label: "Mandatory Cooling-Off Period", value: "30 to 180 Days", note: "Statutory waiting period before final decree" }
+          ]}
+          sourceText="American Bar Association (ABA) Section of Family Law & State Court Rules"
+        />
+
     <>
       <section className="hero">
         <div className="container">
