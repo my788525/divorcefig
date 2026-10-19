@@ -8,7 +8,7 @@ import { DataSources } from '@/components/DataSources';
 import { homeDescription } from '@/lib/serp_variants';
 
 export const metadata = {
-  title: 'What Does Divorce Cost & Require in My State? (2026)',
+  title: 'Divorce Cost & Waiting Period Calculator (2026): 50-State Filing Fees & Laws',
   description: homeDescription(),
   alternates: { canonical: '/' },
 };

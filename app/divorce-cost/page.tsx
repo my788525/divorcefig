@@ -4,7 +4,7 @@ import { FaqBlock, faqLd } from '@/components/FaqBlock';
 import { costDescription } from '@/lib/serp_variants';
 
 export const metadata = {
-  title: 'How Much Does a Divorce Cost in My State? (2026)',
+  title: 'Divorce Cost Calculator (2026): Court Filing Fees & Legal Estimates by State',
   description: costDescription(),
   alternates: { canonical: '/divorce-cost/' },
 };

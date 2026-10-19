@@ -4,7 +4,7 @@ import { FaqBlock, faqLd } from '@/components/FaqBlock';
 import { propertyDescription } from '@/lib/serp_variants';
 
 export const metadata = {
-  title: 'Separate vs Marital Property: Classify Assets by State (2026)',
+  title: 'Marital vs Separate Property Calculator (2026): 50-State Asset Division Rules',
   description: propertyDescription(),
   alternates: { canonical: '/property-division/' },
 };

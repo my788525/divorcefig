@@ -5,9 +5,9 @@ import { DataSources } from '@/components/DataSources';
 import { FaqBlock, faqLd } from '@/components/FaqBlock';
 
 export const metadata = {
-  title: 'Divorce Residency & Separation Requirements by State (2026)',
+  title: 'Divorce Waiting Period & Residency Requirements by State (2026 Table)',
   description:
-    'How long you must live in a state before filing for divorce, whether a separation period is required, and the mandatory waiting period before a decree — for all 50 states and D.C.',
+    'Interactive 2026 statutory waiting period and residency requirement tool: cooling-off periods, living-apart rules, and decree timelines for all 50 states and D.C.',
   alternates: { canonical: '/divorce-requirements/' },
 };
 
@@ -55,6 +55,18 @@ export default function DivorceRequirementsPage() {
     about: { '@type': 'Thing', name: 'Divorce residency and separation requirements' },
   };
 
+  const webAppLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: 'Divorce Waiting Period & Residency Requirements Tool (2026)',
+    url: 'https://divorcefig.com/divorce-requirements/',
+    applicationCategory: 'LegalApplication',
+    operatingSystem: 'Any',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    description:
+      'Interactive statutory waiting period and residency requirement tool covering mandatory cooling-off durations and separation rules across all 50 U.S. states.',
+  };
+
   return (
     <div className="container">
       <div className="crumbs">
@@ -72,6 +84,10 @@ export default function DivorceRequirementsPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppLd) }}
       />
       <script
         type="application/ld+json"
