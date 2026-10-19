@@ -40,7 +40,6 @@ export default function HomePage() {
           sourceText="American Bar Association (ABA) Section of Family Law & State Court Rules"
         />
 
-    <>
       <section className="hero">
         <div className="container">
           <div className="eyebrow">Independent · Not legal advice</div>

@@ -18,7 +18,7 @@ export interface FilingFeeEntry {
   source: string;
 }
 
-export const FILING_FEE_RETRIEVED = '2026-08-15';
+export const FILING_FEE_RETRIEVED = '2026-10-19';
 
 export const FILING_FEE_SOURCE =
   'legalcostcalculator.org, "Divorce Filing Fees by State 2026" (official state court fee schedules); cross-checked vs Nolo / Realcostreport 2026.';

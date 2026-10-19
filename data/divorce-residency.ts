@@ -26,7 +26,7 @@ export interface ResidencyEntry {
   source: string;
 }
 
-export const RESIDENCY_RETRIEVED = '2026-08-15';
+export const RESIDENCY_RETRIEVED = '2026-10-19';
 
 export const RESIDENCY_SOURCE =
   'DivorceNet "Divorce Residency Requirements in Your State" (2026); DivorceClear state tables (2026); LegalClarity "What States Require Separation Before Divorce?" (2026); Recording-law "Divorce Laws by State (2026)"; state family-law statutes.';
