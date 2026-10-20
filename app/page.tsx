@@ -80,6 +80,15 @@ export default function HomePage() {
               Forms by state
             </Link>
           </p>
+          <div className="quick-state-pills" style={{ marginTop: '1rem', display: 'flex', gap: '0.4rem', flexWrap: 'wrap', alignItems: 'center' }}>
+            <span style={{ fontSize: '0.82rem', color: 'var(--muted)', fontWeight: 600 }}>Top 2026 Filing Guides:</span>
+            <Link href="/forms/ca/" className="tag">California ($435 Fee)</Link>
+            <Link href="/forms/tx/" className="tag">Texas ($300 Fee)</Link>
+            <Link href="/forms/fl/" className="tag">Florida ($409 Fee)</Link>
+            <Link href="/forms/ny/" className="tag">New York ($335 Fee)</Link>
+            <Link href="/forms/il/" className="tag">Illinois ($388 Fee)</Link>
+          </div>
+
         </div>
       </section>
 
