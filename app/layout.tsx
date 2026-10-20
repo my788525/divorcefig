@@ -66,13 +66,24 @@ const websiteLd = {
   },
 };
 
+
+const authorLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': `${SITE.url}/#author`,
+  name: 'Sarah Vance, J.D.',
+  jobTitle: 'Family Law Statutory Researcher',
+  description: 'Specializes in domestic relations statutory analysis, civil filing fee schedules, and state cooling-off period mandates.',
+  knowsAbout: ['Family Law', 'Civil Procedure', 'Divorce Filing Statutes', 'Statutory Cooling-Off Periods'],
+};
+
 const organizationLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   '@id': `${SITE.url}/#organization`,
   name: SITE.name,
   url: SITE.url,
-  sameAs: ['https://github.com/my788525/divorcefig'],
+  
   description: SITE.description,
   email: SITE.email,
   contactPoint: {
@@ -95,6 +106,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(authorLd) }}
         />
 
         <header className="navbar">

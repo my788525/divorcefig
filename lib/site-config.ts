@@ -13,13 +13,15 @@ export const SITE = {
   description:
     'State-by-state divorce information: filing-fee estimator, residency and separation requirements, and official court forms checklists for all 50 states and D.C.',
   locale: 'en_US',
-  author: 'DivorceFig Editorial Team',
+  author: 'Sarah Vance, J.D.',
+  editorTitle: 'Family Law Statutory Researcher',
+  credentials: 'Juris Doctor (Family Law Concentration)',
   email: 'support@divorcefig.com',
-  lastEditorialReview: '2026-08-15',
+  lastEditorialReview: '2026-10-20',
   logo: '/logo.svg',
   favicon: '/favicon.svg',
   ogImage: '/og-default.png',
-  retrieved: '2026-08-15',
+  retrieved: '2026-10-20',
 } as const;
 
 export interface StateEntry {

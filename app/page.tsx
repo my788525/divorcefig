@@ -43,6 +43,21 @@ export default function HomePage() {
       <section className="hero">
         <div className="container">
           <div className="eyebrow">Independent · Not legal advice</div>
+          <div className="quick-answer-card" style={{
+            background: '#f8fafc',
+            border: '1px solid #cbd5e1',
+            borderRadius: '12px',
+            padding: '1.25rem',
+            margin: '1.5rem 0',
+            fontSize: '0.95rem',
+            lineHeight: 1.6
+          }}>
+            <strong style={{ color: '#0f172a', display: 'block', marginBottom: '0.5rem', fontSize: '1rem' }}>
+              Direct Answer &amp; 2026 Statutory Framework:
+            </strong>
+            Under state domestic relations statutes, U.S. uncontested divorce costs range from $150 to $450 in mandatory court clerk filing fees, with median total expenses between $1,500 and $4,500. Contested trials with billable attorney hours average $15,000 to $30,000+. Mandatory statutory cooling-off waiting periods require 30 to 180 days before final decree issuance.
+          </div>
+
           <h1>What Does Divorce Cost &amp; Require in My State?</h1>
           <p className="lead">
             DivorceFig compiles real, cited state-level data on filing fees, residency and

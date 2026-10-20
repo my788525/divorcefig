@@ -269,3 +269,38 @@ select, input[type="text"] {
 .howto-block ol { padding-left: 1.3em; margin: 0; display: grid; gap: 10px; }
 .howto-block li { margin-bottom: 6px; }
 .howto-block li span { display: block; color: var(--ink-soft); font-size: 0.95rem; }
+
+
+/* ==========================================================================
+   Pinnacle Mobile Viewport Armor & Zero-CLS Table Containment
+   ========================================================================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+@media (max-width: 768px) {
+  .table-wrapper, .table-container, .table-responsive, table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Print Optimization for Financial & Legal Worksheets */
+@media print {
+  .navbar, .footer, .nav, header, footer, .network-strip, .next-steps-action-hub, .btn, .calc-cta, button {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+  .container, main {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
