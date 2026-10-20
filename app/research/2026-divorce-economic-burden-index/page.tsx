@@ -173,6 +173,60 @@ export default function DivorceIndexReportPage() {
           { label: 'Open Data File', detail: 'Published under Creative Commons Attribution 4.0 International at /data/filing-fees.json.' },
         ]}
       />
+
+      {/* High-Intent Family Law Attorney Referral */}
+      <section style={{ margin: '2.5rem 0', padding: '1.5rem', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 12 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1.25rem' }}>
+          <div>
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: '0.75rem', fontWeight: 700, padding: '2px 8px', borderRadius: 4, background: '#eff6ff', color: '#1d4ed8', marginBottom: 6 }}>
+              🏛️ QUALIFIED DOMESTIC RELATIONS COUNSEL
+            </div>
+            <h3 style={{ margin: 0, fontSize: '1.15rem', color: '#0f172a', fontWeight: 700 }}>
+              Filing for Dissolution or Protecting Marital Assets?
+            </h3>
+            <p style={{ margin: '6px 0 0 0', fontSize: '0.85rem', color: '#475569', maxWidth: '680px', lineHeight: 1.5 }}>
+              Court filing fees represent only the procedural baseline of dissolution costs. Contested proceedings involving real property valuation, Qualified Domestic Relations Orders (QDRO) for 401(k) / pension division, or child custody disputes require experienced representation. Connect with a licensed family law attorney in your state.
+            </p>
+          </div>
+          <a
+            href="https://www.lawhelp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '10px 20px', background: '#0f172a', color: '#ffffff', textDecoration: 'none', borderRadius: 6, fontWeight: 600, fontSize: '0.85rem', whiteSpace: 'nowrap' }}
+          >
+            Find Family Law Counsel &rarr;
+          </a>
+        </div>
+      </section>
+
+      {/* Cross-Pollination Sister Mesh: compoundfig.com */}
+      <section style={{ margin: '1.5rem 0', padding: '1.25rem', background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <span style={{ fontSize: '1.5rem' }}>⚖️</span>
+          <div>
+            <div style={{ fontWeight: 700, fontSize: '0.9rem', color: '#1e40af' }}>
+              Calculating Statutory Interest on Child Support or Equalization Arrears?
+            </div>
+            <div style={{ fontSize: '0.8rem', color: '#1d4ed8' }}>
+              Delinquent court-ordered equalization judgments and child support balances accrue statutory interest by operation of law. Calculate exact per diem rates across all 50 states.
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://compoundfig.com/statutory-interest"
+          target="_blank"
+          rel="noopener"
+          style={{ display: 'inline-flex', alignItems: 'center', gap: 4, padding: '8px 16px', background: '#2563eb', color: '#ffffff', textDecoration: 'none', borderRadius: 6, fontWeight: 600, fontSize: '0.82rem', whiteSpace: 'nowrap' }}
+        >
+          Statutory Interest Auditor &rarr;
+        </a>
+      </section>
+
+      {/* Official YMYL Family Law Disclaimer */}
+      <div style={{ margin: '2rem 0', padding: '1rem 1.25rem', background: '#fffbeb', border: '1px solid #fef3c7', borderRadius: 8, fontSize: '0.78rem', color: '#92400e', lineHeight: 1.5 }}>
+        <strong>Family Law &amp; Judicial Disclaimer:</strong> The 2026 State-by-State Divorce Economic Burden Index compiles public clerk fee schedules and statutory minimum waiting periods for informational and academic analysis. Filing fees are subject to local county surcharges, electronic filing vendor fees, and poverty fee-waiver (in forma pauperis) rules. Nothing in this report constitutes formal legal advice or guarantees dissolution outcomes. Consult a licensed domestic relations attorney or local court self-help center.
+      </div>
+
     </div>
   );
 }
