@@ -10,6 +10,30 @@ export const metadata = {
   alternates: { canonical: '/research/2026-divorce-economic-burden-index/' },
 };
 
+const reportSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'TechArticle',
+  headline: 'The 2026 U.S. Divorce Economic Burden & Court Fee Index',
+  description: 'Exhaustive statutory research whitepaper on U.S. divorce filing fees, mandatory waiting periods, fee waiver thresholds, and community property distribution rules across all 50 states.',
+  about: [
+    {
+      '@type': 'Thing',
+      name: 'Divorce',
+      sameAs: 'https://www.wikidata.org/wiki/Q93190',
+    },
+    {
+      '@type': 'Thing',
+      name: 'Court costs',
+      sameAs: 'https://www.wikidata.org/wiki/Q1059905',
+    },
+    {
+      '@type': 'Thing',
+      name: 'Community property',
+      sameAs: 'https://en.wikipedia.org/wiki/Community_property',
+    },
+  ],
+};
+
 export default function DivorceIndexReportPage() {
   const allFeeEntries = Object.entries(FILING_FEES).map(([code, data]) => ({
     code,
@@ -25,6 +49,7 @@ export default function DivorceIndexReportPage() {
 
   return (
     <div className="container" style={{ maxWidth: 900, margin: '0 auto', padding: '2rem 1rem' }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reportSchema) }} />
       <div className="crumbs" style={{ marginBottom: '1.5rem', fontSize: '0.875rem' }}>
         <Link href="/">Home</Link> › Research Whitepaper › 2026 Divorce Index
       </div>
