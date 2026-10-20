@@ -5,7 +5,7 @@ import { DataSources } from '@/components/DataSources';
 import { FaqBlock, faqLd } from '@/components/FaqBlock';
 
 export const metadata = {
-  title: 'Divorce Waiting Period & Residency Requirements by State (2026 Table)',
+  title: 'Divorce Waiting Period & Residency Requirements by State [2026 Statutory Rules] | DivorceFig',
   description:
     'Interactive 2026 statutory waiting period and residency requirement tool: cooling-off periods, living-apart rules, and decree timelines for all 50 states and D.C.',
   alternates: { canonical: '/divorce-requirements/' },

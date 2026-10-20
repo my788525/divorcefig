@@ -4,7 +4,7 @@ import { FaqBlock, faqLd } from '@/components/FaqBlock';
 import { costDescription } from '@/lib/serp_variants';
 
 export const metadata = {
-  title: 'Divorce Cost Calculator (2026): Court Filing Fees & Legal Estimates by State',
+  title: 'Divorce Cost Calculator [2026]: 50-State Court Fees, Legal Costs & Fee Waiver Checker | DivorceFig',
   description: costDescription(),
   alternates: { canonical: '/divorce-cost/' },
 };

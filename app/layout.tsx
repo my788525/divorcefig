@@ -8,11 +8,11 @@ import DisclaimerBanner from '@/components/DisclaimerBanner';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: 'DivorceFig – Divorce Cost & Filing Fee Calculator 2026 | by State',
+    default: 'Divorce Cost & Waiting Period Calculator (2026): 50-State Filing Fees & Timelines | DivorceFig',
     template: `%s | ${SITE.name}`,
   },
   description:
-    'Calculate estimated divorce filing fees, court costs, and legal expenses across all 50 U.S. states. Residency rules, waiting periods, and mandatory forms.',
+    'Free 2026 50-state divorce cost calculator: compare court filing fees ($80-$450), attorney costs, statutory cooling-off waiting periods, and fee waiver eligibility.',
   applicationName: SITE.name,
   authors: [{ name: SITE.author }],
   creator: SITE.author,
