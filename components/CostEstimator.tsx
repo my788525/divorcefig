@@ -10,7 +10,7 @@ import {
   formatUSD,
   type CaseType,
 } from '@/lib/calc';
-import { getFilingFee } from '@/data/divorce-filing-fees';
+import { getFilingFee, FILING_FEES } from '@/data/divorce-filing-fees';
 import { RESIDENCY } from '@/data/divorce-residency';
 import { DataSources } from '@/components/DataSources';
 
@@ -28,6 +28,17 @@ export default function CostEstimator() {
   const fee = getFilingFee(code);
   const residencyInfo = RESIDENCY[code];
 
+  // 50-state filing fee percentile calculation
+  const feePercentileInfo = useMemo(() => {
+    const allFees = Object.values(FILING_FEES).map((f) => f.fee).sort((a, b) => a - b);
+    const currentFee = est.filingFee;
+    const countLower = allFees.filter((f) => f < currentFee).length;
+    const pct = Math.round((countLower / allFees.length) * 100);
+    const medianFee = 215;
+    const diffPct = Math.round(((currentFee - medianFee) / medianFee) * 100);
+    return { pct, medianFee, diffPct };
+  }, [est.filingFee]);
+
   // 2026 HHS Poverty 150% threshold for In Forma Pauperis (IFP) fee waiver estimation
   const waiverThreshold = useMemo(() => {
     const base = 1950; // single monthly 150% FPL
@@ -44,7 +55,7 @@ export default function CostEstimator() {
     const summaryText = [
       `=== 2026 Divorce Cost & Statutory Breakdown: ${stateName(code)} ===`,
       `Case Profile: ${profile.label}`,
-      `Statutory Court Filing Fee: ${formatUSD(est.filingFee)}`,
+      `Statutory Court Filing Fee: ${formatUSD(est.filingFee)} (${feePercentileInfo.pct}th percentile nationally)`,
       `Estimated Professional Costs: ${formatUSD(est.attorneyMin)} - ${formatUSD(est.attorneyMax)}`,
       `Estimated Total Out-of-Pocket: ${formatUSD(est.totalMin)} - ${formatUSD(est.totalMax)}`,
       `Statutory Waiting Period: ${residencyInfo?.waitingPeriodDays ? `${residencyInfo.waitingPeriodDays} days` : 'None / Court Discretion'}`,
@@ -144,6 +155,24 @@ export default function CostEstimator() {
           </table>
         </div>
 
+        {/* 50-State Filing Fee Percentile Gauge */}
+        <div style={{ marginTop: 20, padding: 16, background: '#f8fafc', borderRadius: 8, border: '1px solid #e2e8f0' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+            <span style={{ fontSize: '0.8rem', fontWeight: 700, color: '#0f172a', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+              📊 50-State Statutory Filing Fee Percentile
+            </span>
+            <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#0284c7', background: '#e0f2fe', padding: '2px 8px', borderRadius: 999 }}>
+              {feePercentileInfo.pct}th Percentile Nationally
+            </span>
+          </div>
+          <div style={{ width: '100%', height: 8, background: '#e2e8f0', borderRadius: 999, overflow: 'hidden', margin: '8px 0' }}>
+            <div style={{ width: `${Math.max(5, feePercentileInfo.pct)}%`, height: '100%', background: 'linear-gradient(90deg, #0ea5e9, #2563eb)', borderRadius: 999, transition: 'width 0.4s ease' }} />
+          </div>
+          <p style={{ fontSize: '0.82rem', color: '#475569', margin: '4px 0 0', lineHeight: 1.4 }}>
+            {stateName(code)}'s court clerk fee of <strong>{formatUSD(est.filingFee)}</strong> is higher than approximately <strong>{feePercentileInfo.pct}%</strong> of U.S. jurisdictions (U.S. median filing fee is {formatUSD(feePercentileInfo.medianFee)}).
+          </p>
+        </div>
+
         {fee?.note ? (
           <p className="small muted" style={{ marginTop: 12 }}>
             Filing fee note: {fee.note}
@@ -240,7 +269,7 @@ export default function CostEstimator() {
             className="btn secondary"
             style={{ fontSize: '0.875rem', padding: '8px 16px' }}
           >
-            🖨️ Print Budget Sheet
+            🖨️ Print Official Filing &amp; Cost Dossier
           </button>
         </div>
       </div>
