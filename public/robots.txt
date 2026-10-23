@@ -1,0 +1,12 @@
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Google-Display-Ads-Bot
+Allow: /
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Host: https://divorcefig.com
+Sitemap: https://divorcefig.com/sitemap.xml

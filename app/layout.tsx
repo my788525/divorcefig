@@ -50,6 +50,9 @@ export const metadata: Metadata = {
     images: [SITE.ogImage],
   },
   robots: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large', 'max-video-preview': -1 },
+  other: {
+    'google-adsense-account': 'ca-pub-5014006117898962',
+  },
 };
 
 const websiteLd = {
