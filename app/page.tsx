@@ -1,3 +1,4 @@
+import ProConsultCard from "@/components/ProConsultCard";
 import Link from 'next/link';
 import { SITE, STATES } from '@/lib/site-config';
 import { FILING_FEES, FILING_FEE_RETRIEVED } from '@/data/divorce-filing-fees';
