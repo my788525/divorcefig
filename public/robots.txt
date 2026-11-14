@@ -1,12 +1,28 @@
-User-agent: Mediapartners-Google
-Allow: /
-
-User-agent: Google-Display-Ads-Bot
-Allow: /
-
 User-agent: *
 Allow: /
-Disallow: /api/
+Disallow: /*.php$
+Disallow: /debug/
+Disallow: /_debugbar/
+Disallow: /.github/
+Disallow: /docker-compose.yml
+Disallow: /buildspec.yaml
 
-Host: https://divorcefig.com
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
 Sitemap: https://divorcefig.com/sitemap.xml
