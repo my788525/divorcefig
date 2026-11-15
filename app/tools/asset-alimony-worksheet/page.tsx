@@ -1,3 +1,4 @@
+import WhiteCollarHub from "@/components/WhiteCollarHub";
 "use client";
 
 import React, { useState } from "react";
@@ -127,6 +128,7 @@ export default function AssetAlimonyWorksheetPage() {
         </div>
 
       </div>
-    </div>
+    <WhiteCollarHub />
+</div>
   );
 }
